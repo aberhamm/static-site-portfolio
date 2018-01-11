@@ -1,0 +1,36 @@
+{
+  "name": "static-site-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aberhamm.github.io/static-site-portfolio",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.15.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.5.1",
+    "npm-check": "^5.5.2",
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gh-pages": "^1.1.0",
+    "jss": "^9.5.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.2.0",
+    "react-jss": "^8.2.1",
+    "react-scroll": "^1.7.5",
+    "react-tap-event-plugin": "^3.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
